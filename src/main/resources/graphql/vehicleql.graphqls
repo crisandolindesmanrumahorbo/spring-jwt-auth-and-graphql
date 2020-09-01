@@ -1,0 +1,35 @@
+type Vehicle {
+    id: Int!,
+    type: String,
+    modelCode: String,
+    brandName: String,
+    launchDate: String
+}
+
+type JwtResponseDto {
+    token: String,
+    type: String
+}
+
+type Query {
+    vehicles(count: Int):[Vehicle]
+#    vehicle(authorization: String!, id: Int!):Vehicle
+    vehicle(id: Int!):Vehicle
+}
+
+type Mutation {
+    createVehicle(vehicle: VehicleWrapper):Vehicle
+#    login(loginRequestDto: LoginRequestDto):JwtResponseDto
+}
+
+input LoginRequestDto {
+    username: String!
+    password: String!
+}
+
+input VehicleWrapper {
+    type: String
+    modelCode: String
+    brandName: String
+    launchDate: String
+}

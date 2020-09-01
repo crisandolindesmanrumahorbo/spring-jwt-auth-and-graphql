@@ -1,0 +1,105 @@
+2020-07-27 21:00:55.639 WIB [2842] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-07-27 21:00:55.647 WIB [2842] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-07-27 21:00:55.647 WIB [2842] LOG:  listening on IPv6 address "::1", port 5432
+2020-07-27 21:00:55.650 WIB [2842] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-07-27 21:00:55.698 WIB [2843] LOG:  database system was shut down at 2020-07-27 00:09:53 WIB
+2020-07-27 21:00:55.749 WIB [2842] LOG:  database system is ready to accept connections
+2020-07-28 01:03:42.700 WIB [2842] LOG:  received fast shutdown request
+2020-07-28 01:03:42.703 WIB [2842] LOG:  aborting any active transactions
+2020-07-28 01:03:42.704 WIB [86774] FATAL:  terminating connection due to administrator command
+2020-07-28 01:03:42.708 WIB [2842] LOG:  background worker "logical replication launcher" (PID 2849) exited with exit code 1
+2020-07-28 01:03:42.708 WIB [2844] LOG:  shutting down
+2020-07-28 01:03:42.775 WIB [2842] LOG:  database system is shut down
+2020-08-06 13:36:26.627 WIB [31467] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-06 13:36:26.633 WIB [31467] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-06 13:36:26.633 WIB [31467] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-06 13:36:26.635 WIB [31467] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-06 13:36:26.674 WIB [31468] LOG:  database system was shut down at 2020-08-06 00:50:12 WIB
+2020-08-06 13:36:26.705 WIB [31467] LOG:  database system is ready to accept connections
+2020-08-06 13:39:13.074 WIB [31927] ERROR:  column "created_at" of relation "api_user" does not exist at character 34
+2020-08-06 13:39:13.074 WIB [31927] STATEMENT:  INSERT INTO public.api_user (id, created_at, name,email, password, phone, modified_at, username)
+	VALUES (1, now(), 'Arief Nur Prakoso', 'arief@dowith.com', '$2y$12$Zs4df65f6AbpJdsX6Dzjl.HemOQrndd6YWdsT.jONKhJMJz.JGb/y', '082383283821', now(), 'arief@dowith.com')
+2020-08-07 00:30:22.990 WIB [31467] LOG:  received smart shutdown request
+2020-08-07 00:30:22.990 WIB [9231] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [9426] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [7028] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [7198] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [9430] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [7146] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [9211] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.992 WIB [31467] LOG:  background worker "logical replication launcher" (PID 31474) exited with exit code 1
+2020-08-07 00:30:22.990 WIB [7324] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [7126] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.990 WIB [9465] FATAL:  terminating connection due to administrator command
+2020-08-07 00:30:22.994 WIB [31469] LOG:  shutting down
+2020-08-07 00:30:23.011 WIB [31467] LOG:  database system is shut down
+2020-08-12 21:51:27.986 WIB [68583] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-12 21:51:27.993 WIB [68583] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-12 21:51:27.993 WIB [68583] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-12 21:51:27.996 WIB [68583] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-12 21:51:28.033 WIB [68584] LOG:  database system was shut down at 2020-08-07 00:30:23 WIB
+2020-08-12 21:51:28.073 WIB [68583] LOG:  database system is ready to accept connections
+2020-08-13 01:20:38.209 WIB [68583] LOG:  received smart shutdown request
+2020-08-13 01:20:38.210 WIB [12934] FATAL:  terminating connection due to administrator command
+2020-08-13 01:20:38.210 WIB [12970] FATAL:  terminating connection due to administrator command
+2020-08-13 01:20:38.210 WIB [12966] FATAL:  terminating connection due to administrator command
+2020-08-13 01:20:38.210 WIB [12879] FATAL:  terminating connection due to administrator command
+2020-08-13 01:20:38.210 WIB [12967] FATAL:  terminating connection due to administrator command
+2020-08-13 01:20:38.212 WIB [68583] LOG:  background worker "logical replication launcher" (PID 68592) exited with exit code 1
+2020-08-13 01:20:38.212 WIB [68587] LOG:  shutting down
+2020-08-13 01:20:38.222 WIB [68583] LOG:  database system is shut down
+2020-08-13 21:01:46.990 WIB [28202] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-13 21:01:46.993 WIB [28202] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-13 21:01:46.993 WIB [28202] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-13 21:01:46.995 WIB [28202] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-13 21:01:47.049 WIB [28203] LOG:  database system was shut down at 2020-08-13 01:20:38 WIB
+2020-08-13 21:01:47.083 WIB [28202] LOG:  database system is ready to accept connections
+2020-08-14 01:57:59.454 WIB [28202] LOG:  received smart shutdown request
+2020-08-14 01:57:59.455 WIB [93461] FATAL:  terminating connection due to administrator command
+2020-08-14 01:57:59.455 WIB [93563] FATAL:  terminating connection due to administrator command
+2020-08-14 01:57:59.455 WIB [93669] FATAL:  terminating connection due to administrator command
+2020-08-14 01:57:59.455 WIB [93631] FATAL:  terminating connection due to administrator command
+2020-08-14 01:57:59.455 WIB [93568] FATAL:  terminating connection due to administrator command
+2020-08-14 01:57:59.457 WIB [28202] LOG:  background worker "logical replication launcher" (PID 28209) exited with exit code 1
+2020-08-14 01:57:59.457 WIB [28204] LOG:  shutting down
+2020-08-14 01:57:59.470 WIB [28202] LOG:  database system is shut down
+2020-08-14 16:16:56.777 WIB [95145] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-14 16:16:56.784 WIB [95145] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-14 16:16:56.784 WIB [95145] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-14 16:16:56.786 WIB [95145] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-14 16:16:56.838 WIB [95148] LOG:  database system was shut down at 2020-08-14 01:57:59 WIB
+2020-08-14 16:16:56.870 WIB [95145] LOG:  database system is ready to accept connections
+2020-08-15 03:51:16.039 WIB [95145] LOG:  received smart shutdown request
+2020-08-15 03:51:16.041 WIB [95145] LOG:  background worker "logical replication launcher" (PID 95154) exited with exit code 1
+2020-08-15 03:51:16.041 WIB [95149] LOG:  shutting down
+2020-08-15 03:51:16.058 WIB [95145] LOG:  database system is shut down
+2020-08-16 20:32:15.019 WIB [46557] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-16 20:32:15.027 WIB [46557] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-16 20:32:15.027 WIB [46557] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-16 20:32:15.029 WIB [46557] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-16 20:32:15.067 WIB [46558] LOG:  database system was shut down at 2020-08-15 03:51:16 WIB
+2020-08-16 20:32:15.077 WIB [46557] LOG:  database system is ready to accept connections
+2020-08-17 03:25:50.897 WIB [46557] LOG:  received smart shutdown request
+2020-08-17 03:25:50.897 WIB [24292] FATAL:  terminating connection due to administrator command
+2020-08-17 03:25:50.897 WIB [24498] FATAL:  terminating connection due to administrator command
+2020-08-17 03:25:50.897 WIB [24361] FATAL:  terminating connection due to administrator command
+2020-08-17 03:25:50.897 WIB [24331] FATAL:  terminating connection due to administrator command
+2020-08-17 03:25:50.897 WIB [24457] FATAL:  terminating connection due to administrator command
+2020-08-17 03:25:50.900 WIB [46557] LOG:  background worker "logical replication launcher" (PID 46564) exited with exit code 1
+2020-08-17 03:25:50.900 WIB [46559] LOG:  shutting down
+2020-08-17 03:25:50.917 WIB [46557] LOG:  database system is shut down
+2020-08-17 19:23:45.021 WIB [44195] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin, compiled by Apple LLVM version 6.0 (clang-600.0.54) (based on LLVM 3.5svn), 64-bit
+2020-08-17 19:23:45.028 WIB [44195] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-17 19:23:45.028 WIB [44195] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-17 19:23:45.029 WIB [44195] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-17 19:23:45.086 WIB [44196] LOG:  database system was shut down at 2020-08-17 03:25:50 WIB
+2020-08-17 19:23:45.131 WIB [44195] LOG:  database system is ready to accept connections
+2020-08-19 00:39:02.920 WIB [44195] LOG:  received smart shutdown request
+2020-08-19 00:39:02.920 WIB [66295] FATAL:  terminating connection due to administrator command
+2020-08-19 00:39:02.920 WIB [66956] FATAL:  terminating connection due to administrator command
+2020-08-19 00:39:02.920 WIB [66553] FATAL:  terminating connection due to administrator command
+2020-08-19 00:39:02.920 WIB [66889] FATAL:  terminating connection due to administrator command
+2020-08-19 00:39:02.920 WIB [66616] FATAL:  terminating connection due to administrator command
+2020-08-19 00:39:02.923 WIB [44195] LOG:  background worker "logical replication launcher" (PID 44204) exited with exit code 1
+2020-08-19 00:39:02.924 WIB [44199] LOG:  shutting down
+2020-08-19 00:39:02.942 WIB [44195] LOG:  database system is shut down
